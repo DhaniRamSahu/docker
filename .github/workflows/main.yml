@@ -32,5 +32,5 @@ jobs:
           cd testing
           pwd
           git clone https://github.com/DhaniRamSahu/docker.git
-          ls -la
+          ls 
           pwd
