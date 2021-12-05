@@ -28,6 +28,9 @@ jobs:
         run: |
           pwd
           ls 
+          mkdir testing
+          cd testing
+          pwd
           git clone https://github.com/DhaniRamSahu/docker.git
           ls -la
           pwd
