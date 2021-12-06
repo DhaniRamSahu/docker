@@ -53,8 +53,7 @@ jobs:
           cd testing
           ls
           pwd
-          zip -r dockerr.zip /home/runner/work/docker/docker/testing/
-          sudo zip docker
+          sudo zip -r docker        #.zip /home/runner/work/docker/docker/testing/
           ls -la
             
       - id: upload-file
