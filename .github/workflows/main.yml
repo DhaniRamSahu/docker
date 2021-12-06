@@ -53,7 +53,7 @@ jobs:
           cd testing
           ls
           pwd
-          sudo zip /home/runner/work/docker/docker/testing/*
+          sudo zip docker
           ls -la
             
       - id: upload-file
