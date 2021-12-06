@@ -41,10 +41,10 @@ jobs:
       - id: auth
         uses: google-github-actions/auth@v0.4.0
         with:
-          workload_identity_provider: 'projects/598535499376/locations/global/workloadIdentityPools/123456/subject/subject'
-          service_account: 'github@directed-seeker-334213.iam.gserviceaccount.com'
+#           workload_identity_provider: 'projects/598535499376/locations/global/workloadIdentityPools/123456/subject/subject'
+#           service_account: 'github@directed-seeker-334213.iam.gserviceaccount.com'
 #             service_account: 'github@directed-seeker-334213.iam.gserviceaccount.com'
-#             credentials_json: ${{ secrets.gcp_credentials }}
+            credentials_json: ${{ secrets.gcp_credentials }}
 
       - name: Run a multi-line script 2
         run: |
