@@ -54,7 +54,7 @@ jobs:
           ls
           pwd
           sudo apt-get install zip unzip
-          sudo zip -r /home/runner/work/docker/docker/testing/
+          sudo zip -r /home/runner/work/docker/docker/testing/*
           ls -la
             
       - id: upload-file
